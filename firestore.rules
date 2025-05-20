@@ -1,0 +1,56 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Function to check if the user is authenticated
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    // Function to check if the authenticated user has an 'admin' custom claim.
+    // This will be used once custom claims are implemented for creating admin roles.
+    function isAdmin() {
+      // Ensure user is authenticated and has the 'admin' custom claim set to true.
+      return request.auth != null && request.auth.token.admin === true;
+    }
+
+    // Default rule: Now, only users with an admin custom claim can read/write all documents.
+    // This is a more secure baseline for an admin-focused application.
+    // Specific collections can have more granular rules if needed, but they should
+    // generally also enforce admin-only access or specific admin capabilities.
+    match /{document=**} {
+      allow read, write: if isAdmin();
+    }
+
+    // The commented-out examples for specific collections can remain as they are,
+    // as they already correctly reference isAdmin(). For example:
+    /*
+    match /websites/{websiteId} {
+      allow read, write: if isAdmin();
+    }
+    // ... and so on for other collections
+    */
+    match /websites/{websiteId} {
+      allow read, write: if isAdmin();
+    }
+    match /platforms/{platformId} {
+      allow read, write: if isAdmin();
+    }
+    match /accounts/{accountId} {
+      allow read, write: if isAdmin();
+    }
+    match /campaigns/{campaignId} {
+      allow read, write: if isAdmin();
+    }
+    match /backlinks/{backlinkId} {
+      allow read, write: if isAdmin();
+    }
+    match /tasks/{taskId} {
+      allow read, write: if isAdmin();
+    }
+    match /content_templates/{templateId} {
+      allow read, write: if isAdmin();
+    }
+    */
+  }
+}
