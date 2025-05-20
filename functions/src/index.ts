@@ -10,6 +10,9 @@ export * from "./auth"; // This will export promoteUserToAdmin and listAllUsers
 export * from "./platforms"; // Add this line to export platform functions
 export * from "./content_templates"; // Add this line
 export * from "./websites"; // Add this line
+export * from "./campaigns"; // Add this line
+export * from "./tasks"; // Add this line
+export * from "./content_processing"; // Add this line
 
 // You can add other general purpose functions here or export from other files
 // For example, if helloWorld was still relevant:
