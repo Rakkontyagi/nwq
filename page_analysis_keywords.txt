@@ -1,0 +1,50 @@
+# Sample keywords for page-level ranking analysis
+# One keyword per line, lines starting with # are ignored
+
+# Home care services
+home care services
+elderly care
+senior care
+caregiver support
+home health care
+in home care
+domiciliary care
+personal care services
+companion care
+respite care
+
+# Specific care types
+dementia care
+alzheimer's care
+palliative care
+end of life care
+disability care
+post operative care
+medication management
+mobility assistance
+fall prevention
+
+# Location-based (example for UK)
+home care london
+elderly care manchester
+senior care birmingham
+care services glasgow
+home care edinburgh
+
+# Service-specific pages
+live in care
+hourly care
+overnight care
+24 hour care
+care assessment
+care consultation
+care planning
+
+# Professional terms
+cqc registered care
+qualified carers
+trained caregivers
+professional care team
+care agency
+care provider
+healthcare at home
