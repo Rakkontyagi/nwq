@@ -1,0 +1,30 @@
+[
+  {
+    "keyword": "python tutorial",
+    "position": 3,
+    "url": "https://mysite.com/python-guide",
+    "title": "Learn python tutorial - Complete Guide",
+    "snippet": "Complete guide to python tutorial with examples and tutorials",
+    "search_volume": null,
+    "difficulty": null,
+    "date": "2025-06-11T15:37:52.199174",
+    "google_domain": "google.com",
+    "country": "US",
+    "language": "en",
+    "device": "desktop"
+  },
+  {
+    "keyword": "python tutorial",
+    "position": 7,
+    "url": "https://blog.mysite.com/advanced-python",
+    "title": "Advanced python tutorial Techniques",
+    "snippet": "Advanced techniques for python tutorial",
+    "search_volume": null,
+    "difficulty": null,
+    "date": "2025-06-11T15:37:52.199174",
+    "google_domain": "google.com",
+    "country": "US",
+    "language": "en",
+    "device": "desktop"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "keywords": [
+    "python tutorial",
+    "web development",
+    "SEO tips"
+  ],
+  "target_domain": "example.com",
+  "google_domain": "google.com",
+  "country": "US",
+  "language": "en",
+  "location": "New York, NY",
+  "device": "desktop",
+  "results_per_page": 100,
+  "max_retries": 3,
+  "retry_delay": 1.0,
+  "rate_limit_delay": 0.1
+}

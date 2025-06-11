@@ -1,0 +1,11 @@
+{
+  "target_domain": "visiting-angels.co.uk",
+  "google_domain": "google.co.uk",
+  "country": "GB",
+  "language": "en",
+  "device": "desktop",
+  "results_per_page": 100,
+  "max_retries": 3,
+  "retry_delay": 1.0,
+  "rate_limit_delay": 0.3
+}
